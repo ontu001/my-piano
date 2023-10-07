@@ -1,17 +1,19 @@
 # my_piano
 
-A new Flutter project.
+It's a very simple project for practice dart function and impliment External packege .
+In this project I use audio player packege to make an app which can play different kind of sound with the help of audio player packege.
+component
+1.Audio player packege
+2.Elevated Button
+3.Some sound effect as internel asset
+4.Expanded Widget
+4.Colum Widgets (crosaxisalignment: scratch, to feet the button horizontally)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+How I make logic for this app.
+I create a seperate file call play where actullay I write main logics, I seperate the code to make the main.dart file clean.
+So first I create a Stateless widget called pLay and then take a colum widget into the body and create a seperate dart file to wirte the Elevated button code so that I can reuse this multiple place,
+then what I do is make a function called playSound to write logic for playing different sound through though the Elevated Button when  user press the button.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# my-piano
+call the elevated button class 7 time as I make 7 sound effect. into the button onpress I just delear the image path.
+Thats all.
